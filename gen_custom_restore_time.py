@@ -20,4 +20,4 @@ for i in root.iter('toTimeValue'):
 		new_a = str(recover_time)
 		a.text = str(new_a)
 
-tree.write('output.xml', short_empty_elements=False, encoding='UTF-8', xml_declaration=True)
+tree.write('custom_to_time.xml', short_empty_elements=False, encoding='UTF-8', xml_declaration=True)
